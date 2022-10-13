@@ -21,3 +21,9 @@ sed -i '34s/V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/W20x1dnD$fL4vZImJD3OZM7hJd7r4e.:19
 
 修改Store
 sed -i 's/luci-lib-ipkg/luci-base/g' feeds/store/luci/luci-app-store/Makefile
+
+#make menuconfig
+#然后：
+#make defconfig
+#./scripts/diffconfig.sh > seed.config
+#cat seed.config
