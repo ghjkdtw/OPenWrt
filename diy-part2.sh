@@ -19,7 +19,7 @@ sed -i 's/192.168.1.1/192.168.68.253/g' package/base-files/files/bin/config_gene
 #修改空密码
 sed -i '34s/V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/W20x1dnD$fL4vZImJD3OZM7hJd7r4e.:19258/' package/lean/default-settings/files/zzz-default-settings
 
-修改Store
+#修改Store
 sed -i 's/luci-lib-ipkg/luci-base/g' feeds/store/luci/luci-app-store/Makefile
 
 #make menuconfig
